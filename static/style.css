@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Microsoft YaHei;
+    box-sizing: border-box;
+}
+.btn{
+    margin: 0 .5rem;
+    padding: .2rem 1rem;
+    border-radius: .2rem;
+    border: 0;
+    box-shadow: 0 0.05em 0.25em rgba(0,0,0,.5);
+    background-color: #fff;
+    cursor: pointer;
+    font-size: .9rem;
+    color: #888;
+}
+.btn:hover{
+  background-color: #ec971f;
+  color: #fff;
+  border-color: #ee7419; 
+}
+.list{
+    margin: 0 auto;
+    width: 96%;
+    line-height: 1.5rem;
+    color: #555;
+    cursor: default;
+    -webkit-user-select: none;
+}
+.list thead tr{
+    font-size: 1.2rem;
+}
+.list thead tr th:nth-child(1){
+    width: 25%;
+}
+.list thead tr th:nth-child(2){
+    width: 20%;
+}
+.list thead tr th:nth-child(3){
+    width: 10%;
+}
+.list thead tr th:nth-child(4){
+    width: 45%;
+}
+.list tbody tr td{
+    border-bottom: 1px solid #ccc;
+    font-size: 1rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+form{
+    background-color: #ee7419;
+    border-radius: 5%;
+    box-shadow: 5px 5px 5px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 240px;
+    height: 200px;
+    padding: 20px 30px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+form input{
+    height: 20px;
+    line-height: 20px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 16px;
+}
+form button{
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+    border: 0;
+    box-shadow: 0 0.05em 0.25em rgba(0,0,0,.5);
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    color: #888;
+}
+form button:hover{
+    background-color: #ec971f;
+    color: #fff;
+}
+form .warn{
+    font-size: 12px;
+    text-align: left;
+    color: red;
+}
+form .reg{
+    font-size: 12px;
+    text-align: right;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: underline;
+}
